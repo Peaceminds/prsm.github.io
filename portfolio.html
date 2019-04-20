@@ -24,8 +24,9 @@
     <script type="text/javascript" src="js/vendor/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="js/lazyload.min.js"></script>
     <script>
+        $("img").lazyload({effect: "fadeIn"});
         $(function () {
-            $("img.lazyload").lazyload({effect: "fadeIn"});
+            
         });
     </script>
 </head>
@@ -149,6 +150,10 @@
                             <div class="pf-wrap">
                                 <div class="pf-filter padd-box">
                                     <button data-filter="*">部分案例</button>
+                                    <!-- <div id="loading" style="margin-top: 20px">
+                                        <p>外网托管，加载较慢，请稍后...</p>
+                                        <img src="img/ajax-loader.gif">
+                                    </div> -->
                                 </div><!-- .pf-filter -->
 
                                 <div class="pf-grid">
@@ -156,7 +161,8 @@
 
                                     <div class="pf-grid-item photography">
                                         <div class="project">
-                                            <img class="lazyload" src="img/uploads/portfolio/prj-00.png" data-src="img/uploads/portfolio/prj-01.png" width="419" height="293">
+                                            <img class="lazyload" data-src="img/uploads/portfolio/prj-00.png" width="419" height="293">
+                                            <img class="lazyload" src="img/uploads/portfolio/prj-01.png" data-src="img/uploads/portfolio/prj-00.png" width="419" height="293">
                                             <div class="portfolio-caption text-center">
                                                 <div class="valign-table">
                                                     <div class="valign-cell">
@@ -170,7 +176,8 @@
 
                                     <div class="pf-grid-item design">
                                         <div class="project">
-                                                <img class="lazyload" src="img/uploads/portfolio/prj-0.png" data-src="img/uploads/portfolio/prj-02.jpg" width="418" height="587">
+                                                <img class="lazyload" data-src="img/uploads/portfolio/prj-0.png" width="418" height="587">
+                                                <img class="lazyload" src="img/uploads/portfolio/prj-02.jpg" data-src="img/uploads/portfolio/prj-02.jpg" width="418" height="587">
                                             <div class="portfolio-caption text-center">
                                                 <div class="valign-table">
                                                     <div class="valign-cell">
@@ -184,7 +191,8 @@
 
                                     <div class="pf-grid-item photography">
                                         <div class="project">
-                                            <img class="lazyload" src="img/uploads/portfolio/prj-00.png" data-src="img/uploads/portfolio/prj-03.png" width="419" height="293">
+                                            <img class="lazyload" data-src="img/uploads/portfolio/prj-00.png" width="419" height="293">
+                                            <img class="lazyload" src="img/uploads/portfolio/prj-03.png" data-src="img/uploads/portfolio/prj-03.png" width="419" height="293">
                                             <div class="portfolio-caption text-center">
                                                 <div class="valign-table">
                                                     <div class="valign-cell">
@@ -204,7 +212,8 @@
 
                                     <div class="pf-grid-item photography">
                                         <div class="project">
-                                            <img class="lazyload" src="img/uploads/portfolio/prj-00.png" data-src="img/uploads/portfolio/prj-04.png" width="419" height="293">
+                                            <img class="lazyload" data-src="img/uploads/portfolio/prj-00.png" width="419" height="293">
+                                            <img class="lazyload" src="img/uploads/portfolio/prj-04.png" data-src="img/uploads/portfolio/prj-04.png" width="419" height="293">
                                             <div class="portfolio-caption text-center">
                                                 <div class="valign-table">
                                                     <div class="valign-cell">
